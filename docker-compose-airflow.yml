@@ -37,7 +37,7 @@ services:
     image: apache/airflow:2.5.3-python3.10
     command: webserver
     ports:
-      - 8080:8080
+      - 8085:8085
     env_file: ./airflow.env
     healthcheck:
       test:
